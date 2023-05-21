@@ -1,0 +1,73 @@
+body {
+  background: blue;
+  height: 700vh;
+}
+.card {
+  background: #000;
+  width: 200px;
+  height: 200px;
+  margin: 15em auto;
+}
+.pop-in-animation {
+  opacity: 0;
+}
+.card:nth-child(1) {
+  margin-top: 40em;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes transform-from-right {
+  from {
+    transform: translateX(100px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes transform-from-left {
+  from {
+    transform: translateX(-100px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes transform-from-top {
+  from {
+    transform: translateY(100px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes transform-from-bottom {
+  from {
+    transform: translateY(-100px);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* .fade-in-animation {
+  animation: fadein 1s;
+} */
