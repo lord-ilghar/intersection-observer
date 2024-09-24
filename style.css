@@ -1,13 +1,3 @@
-body {
-  background: blue;
-  height: 700vh;
-}
-.card {
-  background: #000;
-  width: 200px;
-  height: 200px;
-  margin: 15em auto;
-}
 .pop-in-animation {
   opacity: 0;
 }

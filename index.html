@@ -2,22 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background: blue;
+        height: 700vh;
+      }
+      .card {
+        background: #000;
+        width: 200px;
+        height: 200px;
+        margin: 15em auto;
+      }
+    </style>
   </head>
   <body>
-    <div class="card pop-in-animation transform-from-right-animation"></div>
-    <div class="card pop-in-animation transform-from-left-animation"></div>
-    <div class="card pop-in-animation transform-from-bottom-animation"></div>
-    <div class="card pop-in-animation transform-from-top-animation"></div>
-    <div class="card pop-in-animation fade-in-animation"></div>
-    <div class="card pop-in-animation transform-from-right-animation"></div>
-    <div class="card pop-in-animation transform-from-left-animation"></div>
-    <div class="card pop-in-animation transform-from-bottom-animation"></div>
-    <div class="card pop-in-animation transform-from-top-animation"></div>
-    <div class="card pop-in-animation fade-in-animation"></div>
+    <div load="bg:load-in sm:load-out">hello world</div>
   </body>
-  <script src="main.js"></script>
+  <script src="./modern.js"></script>
 </html>

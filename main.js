@@ -1,5 +1,4 @@
 const cards = document.getElementsByClassName("card");
-console.log(cards);
 const delay = 1;
 const observer = new IntersectionObserver(
   (ent) => {
